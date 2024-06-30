@@ -95,3 +95,4 @@ CREATE TABLE ORDER_DETAILS (
 	unitPrice MONEY
 )
 GO
+
