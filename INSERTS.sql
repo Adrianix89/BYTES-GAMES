@@ -178,160 +178,60 @@ SELECT title, catName FROM VIDEOGAMES V
 INNER JOIN CATEGORIES C ON V.idCategory = C.idCategory
 GO 
 
-
-
-
-
-
 -- INSERTAMOS LAS CLIENTES
   
 INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('John Smith', 'johnsmith99@hotmail.com', '030-0074321');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Ana Gómez', 'ana.gomez45@gmail.com', '(5) 555-4729');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Carlos Ruiz', 'c.ruiz@outlook.com', '(5) 555-3932');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Emily Johnson', 'emily.johnson123@yahoo.com', '(171) 555-7788');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('David Martinez', 'david.mtz@hotmail.com', '0921-12 34 65');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('María Lopez', 'maria_lopez@gmail.com', '0621-08460');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Michael Brown', 'michael.brown@outlook.com', '88.60.15.31');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Juan Perez', 'juan.perez78@yahoo.com', '(91) 555 22 82');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Jessica Lee', 'j.lee@hotmail.com', '91.24.45.40');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Luis Ramirez', 'luis.ramirez@gmail.com', '(604) 555-4729');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Sophia Davis', 'sophia.davis@outlook.com', '(171) 555-1212');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Jose Torres', 'jose_torres@yahoo.com', '(1) 135-5555');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Emma Thompson', 'emma.thompson56@hotmail.com', '(5) 555-3392');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Andrés Silva', 'andres.silva99@gmail.com', '0452-076545');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Robert Garcia', 'robert.garcia@outlook.com', '(91) 555-1234');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Laura Wilson', 'laura_wilson@yahoo.com', '(11) 555-7647');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Daniel Gonzalez', 'daniel.gonzalez23@hotmail.com', '(171) 555-2282');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Gabriela Hernandez', 'gabriela.hdz@gmail.com', '0241-039123');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('James Martinez', 'james_martinez@outlook.com', '40.67.88.88');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Natalia Sanchez', 'natalia.sanchez@yahoo.com', '(171) 555-0297');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('William Johnson', 'william.j@hotmail.com', '7675-3425');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Elena Diaz', 'elena_diaz@gmail.com', '(11) 555-9857');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Alexander Brown', 'alex.brown@outlook.com', '(91) 555 94 44');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Camila Chavez', 'camila.chavez@yahoo.com', '20.16.10.16');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Benjamin Wilson', 'ben.wilson@hotmail.com', '0695-34 67 21');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Claudia Morales', 'claudia.morales@gmail.com', '089-0877310');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Christopher White', 'chris.white@outlook.com', '40.32.21.21');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Isabella Ramirez', 'isabella_ramirez@yahoo.com', '011-4988260');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Anthony Torres', 'anthony.torres@hotmail.com', '(1) 354-2534');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Sofia Gonzalez', 'sofia.gonzalez@gmail.com', '(93) 203 4560');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Matthew Green', 'matt.green@outlook.com', '(95) 555 82 82');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Valeria Martinez', 'valeria.mtz@yahoo.com', '(11) 555-9482');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Andrew Scott', 'andrew.scott@hotmail.com', '(503) 555-7555');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Marta Jimenez', 'marta.jimenez@gmail.com', '(2) 283-2951');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Joshua Lewis', 'josh.lewis@outlook.com', '(21) 555-0091');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Veronica Lopez', 'vero.lopez@yahoo.com', '(5) 555-1340');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Kevin Lee', 'kevin.lee@hotmail.com', '(503) 555-6874');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Lorena Hernandez', 'lorena.hdz@gmail.com', '2967 542');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Brian Clark', 'brian.clark@outlook.com', '(198) 555-8888');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Paula Rivera', 'paula.rivera@yahoo.com', '0555-09876');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Justin Young', 'justin.young@hotmail.com', '30.59.84.10');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Clara Fernandez', 'clara.fernandez@gmail.com', '61.77.61.10');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Frank Harris', 'frank.harris@outlook.com', '(604) 555-3392');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Carolina Rodriguez', 'carolina_rodriguez@yahoo.com', '(509) 555-7969');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('George Robinson', 'george.robinson@hotmail.com', '069-0245984');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Natalie Walker', 'natalie.walker@gmail.com', '(415) 555-5938');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Thomas Hall', 'thomas.hall@outlook.com', '(9) 331-6954');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Silvia Ramirez', 'silvia.ramirez@yahoo.com', '(8) 34-56-12');
-
-INSERT INTO CLIENTS (nameCli, emailCli, phoneCli) VALUES
-('Peter Young', 'peter.young@hotmail.com', '(503) 555-9573');
+('John Smith', 'johnsmith99@hotmail.com', '987654321'),
+('Ana Gómez', 'ana.gomez45@gmail.com', '987654322'),
+('Carlos Ruiz', 'c.ruiz@outlook.com', '987654323'),
+('Emily Johnson', 'emily.johnson123@yahoo.com', '987654324'),
+('David Martinez', 'david.mtz@hotmail.com', '987654325'),
+('María Lopez', 'maria_lopez@gmail.com', '987654326'),
+('Michael Brown', 'michael.brown@outlook.com', '987654327'),
+('Juan Perez', 'juan.perez78@yahoo.com', '987654328'),
+('Jessica Lee', 'j.lee@hotmail.com', '987654329'),
+('Luis Ramirez', 'luis.ramirez@gmail.com', '987654330'),
+('Sophia Davis', 'sophia.davis@outlook.com', '987654331'),
+('Jose Torres', 'jose_torres@yahoo.com', '987654332'),
+('Emma Thompson', 'emma.thompson56@hotmail.com', '987654333'),
+('Andrés Silva', 'andres.silva99@gmail.com', '987654334'),
+('Robert Garcia', 'robert.garcia@outlook.com', '987654335'),
+('Laura Wilson', 'laura_wilson@yahoo.com', '987654336'),
+('Daniel Gonzalez', 'daniel.gonzalez23@hotmail.com', '987654337'),
+('Gabriela Hernandez', 'gabriela.hdz@gmail.com', '987654338'),
+('James Martinez', 'james_martinez@outlook.com', '987654339'),
+('Natalia Sanchez', 'natalia.sanchez@yahoo.com', '987654340'),
+('William Johnson', 'william.j@hotmail.com', '987654341'),
+('Elena Diaz', 'elena_diaz@gmail.com', '987654342'),
+('Alexander Brown', 'alex.brown@outlook.com', '987654343'),
+('Camila Chavez', 'camila.chavez@yahoo.com', '987654344'),
+('Benjamin Wilson', 'ben.wilson@hotmail.com', '987654345'),
+('Claudia Morales', 'claudia.morales@gmail.com', '987654346'),
+('Christopher White', 'chris.white@outlook.com', '987654347'),
+('Isabella Ramirez', 'isabella_ramirez@yahoo.com', '987654348'),
+('Anthony Torres', 'anthony.torres@hotmail.com', '987654349'),
+('Sofia Gonzalez', 'sofia.gonzalez@gmail.com', '987654350'),
+('Matthew Green', 'matt.green@outlook.com', '987654351'),
+('Valeria Martinez', 'valeria.mtz@yahoo.com', '987654352'),
+('Andrew Scott', 'andrew.scott@hotmail.com', '987654353'),
+('Marta Jimenez', 'marta.jimenez@gmail.com', '987654354'),
+('Joshua Lewis', 'josh.lewis@outlook.com', '987654355'),
+('Veronica Lopez', 'vero.lopez@yahoo.com', '987654356'),
+('Kevin Lee', 'kevin.lee@hotmail.com', '987654357'),
+('Lorena Hernandez', 'lorena.hdz@gmail.com', '987654358'),
+('Brian Clark', 'brian.clark@outlook.com', '987654359'),
+('Paula Rivera', 'paula.rivera@yahoo.com', '987654360'),
+('Justin Young', 'justin.young@hotmail.com', '987654361'),
+('Clara Fernandez', 'clara.fernandez@gmail.com', '987654362'),
+('Frank Harris', 'frank.harris@outlook.com', '987654363'),
+('Carolina Rodriguez', 'carolina_rodriguez@yahoo.com', '987654364'),
+('George Robinson', 'george.robinson@hotmail.com', '987654365'),
+('Natalie Walker', 'natalie.walker@gmail.com', '987654366'),
+('Thomas Hall', 'thomas.hall@outlook.com', '987654367'),
+('Silvia Ramirez', 'silvia.ramirez@yahoo.com', '987654368'),
+('Peter Young', 'peter.young@hotmail.com', '987654369');
 GO
+
 SELECT * FROM CLIENTS
 GO
 
